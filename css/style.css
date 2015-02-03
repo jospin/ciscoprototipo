@@ -1,1 +1,33 @@
 /* Empty. Add your own CSS if you like */
+
+.bar.bar-stable {
+background-color: #2A5693;
+color:#f8f8f8;
+}
+.bar.bar-stable .title{
+    color:#f8f8f8;
+}
+.button.button-positive{
+    background-color: #2A5693;
+}
+
+.tabs-positive > .tabs, .tabs.tabs-positive {
+    background-color: #2A5693;
+}
+ul{
+    display block;
+    overflow:hidden;
+    margin: 0 5px;
+}
+li{
+    list-style-type: none;
+    padding: 5px 2px;
+    border-bottom: 1px solid #000;
+}
+
+strong {
+    display:block;
+    width:170px;
+    margin-right:3px;
+    float:left;
+}
