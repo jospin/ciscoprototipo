@@ -1,0 +1,33 @@
+<ion-view view-title="Login">
+  <ion-content ng-controller="loginCtrl">
+
+    <button class="button button-full button-positive" ng-click="login('facebook')">Entrar com o Facebook</button>
+    
+    <div class="card">
+      <div class="item item-text-wrap" ng-hide="user">Usuário não logado</div>
+      <div class="item item-text-wrap" ng-show="user" ng-bind="user.displayName"></div>
+    </div>
+
+  </ion-content>
+</ion-view>
+
+
+<!--
+     <div class="list">
+      <label class="item item-input">
+        <span class="input-label">E-mail</span>
+        <input type="text" ng-model="user.mail">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Senha</span>
+        <input type="password" ng-model="user.password">
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Nº Fidelidade / CPF</span>
+        <input type="text" ng-model="user.fideli">
+      </label>
+    </div>
+ <div class="padding">
+
+    </div>
+-->
